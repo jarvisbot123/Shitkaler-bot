@@ -45,7 +45,7 @@ module.exports = {
 
                 await api.sendMessage(
                     {
-                        body: 🆃🅰🅼🅸🅼​🇧​​🇧​​🇿​\n`🎬 *${title || "ভিডিও"}*`,
+                        body: `🎬 *${title || "ভিডিও"}*`,
                         attachment: fs.createReadStream(filePath)
                     },
                     threadID,
